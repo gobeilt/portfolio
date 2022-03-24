@@ -3,9 +3,11 @@
 ## Current Status 
 
 - [x] Initial Commit + ReadMe.md
-- [ ] Code the Website in Bootstrap
-- [ ] Re-skin Bootstrap using my own CSS in a seperate styles.css
-- [ ] Create all HTML pages
+- [x] Code the Basic Website in Bootstrap with all the elements you need
+- [x] Re-skin Bootstrap using my own CSS in a seperate styles.css
+- [ ] Carousel Demo 
+- [ ] Create all HTML pages, making Images as you go
+- [ ] Re-skin Bootstrap As Needed 
 - [ ] Validate My Code
 - [ ] Commit Final to GitHub, Check using GitHub Pages Link on multiple browsers (after 15-20 minutes)
 

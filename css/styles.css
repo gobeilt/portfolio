@@ -1,0 +1,82 @@
+
+/* OVERRIDE BOOTSTRAP VARIABLES */
+
+:root {
+    --bs-primary: #80BC00;
+    --bs-secondary: #001B52;
+
+    --bs-light: #EAE7E4;
+    --bs-dark: #2E2C35;
+    --bs-primary-rgb: 128, 188, 0;
+    --bs-secondary-rgb: 0, 27, 82;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;  
+    --bs-body-font-family: 'Lora', Georgia, serif;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #2E2C35;
+    --bs-body-bg: #fff;
+  }
+
+/* OVERRIDE BOOTSTRAP CSS */
+
+  .btn-primary {
+    color: #fff;
+    background-color: #80BC00;
+    border-color: #80BC00;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #a0dC20;
+    border-color: #a0dC20;
+  }
+  .btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #a0dC20;
+    border-color: #a0dC20;
+    box-shadow: 0 0 0 0.25rem rgba(128, 188, 0, 0.5);
+  }
+  .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #80BC00;
+    border-color: #80BC00;
+  }
+  .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(128, 188, 0, 0.5);
+  }
+  .btn-primary:disabled, .btn-primary.disabled {
+    color: #fff;
+    background-color: #80BC00;
+    border-color: #80BC00;
+  }
+
+  .btn-secondary {
+    color: #fff;
+    background-color: #001B52;
+    border-color: #001B52;
+  }
+  .btn-secondary:hover {
+    color: #fff;
+    background-color: #203B72;
+    border-color: #203B72;
+  }
+  .btn-check:focus + .btn-secondary, .btn-secondary:focus {
+    color: #fff;
+    background-color: #203B72;
+    border-color: #203B72;
+    box-shadow: 0 0 0 0.25rem rgba(0, 27, 82, 0.5);
+  }
+  .btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #203B72;
+    border-color: #203B72;
+  }
+  .btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 27, 82, 0.5);
+  }
+  .btn-secondary:disabled, .btn-secondary.disabled {
+    color: #fff;
+    background-color: #001B52;
+    border-color: #001B52;
+  }
